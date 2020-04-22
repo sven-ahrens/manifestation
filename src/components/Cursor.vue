@@ -32,26 +32,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss">
-  .discover {
-    background-color: #CB96A6;
-    background-image: url('../assets/images/background.jpg');
-    background-size: cover;
-    height: 100vh;
-  }
-
-  .cursor {
-    height: 100vh;
-    width: 100vw;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: white;
-    mix-blend-mode: screen;
-
-    circle {
-      transition: all .65s cubic-bezier(0.215, 0.610, 0.355, 1.000);
-    }
-  }
-</style>
