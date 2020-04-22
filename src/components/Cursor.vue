@@ -3,7 +3,6 @@
     <div class="discover">
       <!-- The image is placed right here -->
     </div>
-    <h1>Hey!</h1>
     <svg
       class="cursor"
       height="30"
@@ -37,7 +36,7 @@ export default {
 <style lang="scss">
   .discover {
     background-color: #CB96A6;
-    background-image: url('../../public/images/blue-lemon.jpg');
+    background-image: url('../assets/images/background.jpg');
     background-size: cover;
     height: 100vh;
   }
@@ -50,5 +49,9 @@ export default {
     left: 0;
     background: white;
     mix-blend-mode: screen;
+
+    circle {
+      transition: all .65s cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
   }
 </style>
