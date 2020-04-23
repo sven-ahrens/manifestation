@@ -4,7 +4,7 @@
     <section class="about-me">
       <div class="portrait">
         <img
-          alt=""
+          alt="A picture of myself"
           src="../assets/images/me.jpg" />
       </div>
     </section>
