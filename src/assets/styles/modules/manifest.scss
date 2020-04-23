@@ -16,8 +16,14 @@
 
   .portrait {
     overflow: hidden;
-    width: 15rem;
-    height: 15rem;
+    width: 10rem;
+    height: 10rem;
+
+    @media only screen and (min-width: 1024px) {
+      width: 15rem;
+      height: 15rem;
+    }
+
     border-radius: 9999px;
     img {
       max-width: 100%;

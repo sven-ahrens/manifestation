@@ -3,7 +3,7 @@
     <h1>Hey.</h1>
     <section class="about-me">
       <div class="portrait">
-        <img alt="" src="../assets/images/me.png"/>
+        <img alt="" src="../assets/images/me.webp"/>
       </div>
     </section>
     <section class="references">

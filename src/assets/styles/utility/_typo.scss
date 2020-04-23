@@ -2,6 +2,7 @@
   font-family: 'Alegreya Sans';
   font-style: normal;
   font-weight: 400;
+  font-display: fallback;
   src: url('~@/assets/fonts/alegreya-sans-v10-latin-ext_latin-regular.eot');
   src: local('Alegreya Sans Regular'), local('AlegreyaSans-Regular'),
   url('~@/assets/fonts/alegreya-sans-v10-latin-ext_latin-regular.eot?#iefix') format('embedded-opentype'),
@@ -14,6 +15,7 @@
 @font-face {
   font-family: 'Alegreya Sans';
   font-style: normal;
+  font-display: fallback;
   font-weight: 500;
   src: url('~@/assets/fonts/alegreya-sans-v10-latin-ext_latin-500.eot');
   src: local('Alegreya Sans Medium'), local('AlegreyaSans-Medium'),
@@ -43,5 +45,9 @@ body {
 
 h1 {
   font-weight: 500;
-  font-size: 4.5rem;
+  font-size: 2.5rem;
+
+  @media only screen and (min-width: 1024px) {
+    font-size: 4.5rem;
+  }
 }
