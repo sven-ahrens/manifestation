@@ -1,6 +1,10 @@
 <template>
   <section class="manifest">
-    <h1>Hey.</h1>
+    <h1>
+      <span class="text--blue">H</span>
+      <span class="text--pink">e</span>
+      <span class="text--light-blue">y.</span>
+    </h1>
     <section class="about-me">
       <div class="portrait">
         <img
